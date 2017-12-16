@@ -1,3 +1,11 @@
 <div>
+
+  <!-- Event bindings are used to capture user-initiated events (click, mouse-over, etc.) 
+  from the view and calling component logic. So it's ONE WAY data binding (view -> component),
+  which is the oposit from property binding, where the direction is component -> view.
+  Reference to all available events: https://developer.mozilla.org/en-US/docs/Web/Events -->
+
+  <!-- To capture an event it's necessary to wrap it with parentheses. Example: 
+  (The "$event" property being passed to the method is optional).  -->
   <button (click)="myEvent($event)">My button</button>
 </div>
