@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { SampleComponent } from './sample/sample.component';
 import { PropBindingComponent } from './prop.binding/prop.binding.component';
 import { SeparatorComponent } from './separator/separator.component';
+import { EventBindingComponent } from './event-binding/event-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SampleComponent,
     PropBindingComponent,
-    SeparatorComponent
+    SeparatorComponent,
+    EventBindingComponent
   ],
   imports: [
     BrowserModule
