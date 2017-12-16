@@ -1,12 +1,16 @@
 <div>
   <h1>Property binding</h1>
 
+  <!-- Property bindings allow us to define element attributes values from 
+  the component class, and it is ONE WAY data binding (component -> view) -->
+
   <!-- 3 ways of using Property binding: -->
-
-  <!-- String interpolation: -->
   <img width="150" src="{{ angularLogo }}">
-
-  <!-- Binding to a component property: -->
   <img width="150" [src]="angularLogo">
   <img width="150" bind-src="angularLogo">
+
+  <!-- More examples -->
+  <br><br>
+  <button [disabled]="buttonStatus1">My button 1</button>
+  <button [disabled]="buttonStatus2 == 'disabled'">My button 2</button>
 </div>

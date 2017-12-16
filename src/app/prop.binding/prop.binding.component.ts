@@ -10,4 +10,6 @@ export class PropBindingComponent {
   constructor() { }
 
   angularLogo = 'https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg';
+  buttonStatus1 = true;
+  buttonStatus2 = 'disabled';
 }
