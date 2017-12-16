@@ -25,8 +25,8 @@ import { Component, OnInit } from '@angular/core';
   <hr/>
 
   <div *ngIf="somethingExists; then tmpl1 else tmpl2"></div>
-  <hr/>
-
+  <br><br>
+  
   <ng-template #otherTmpl>No, something doesn't exist.</ng-template>
   <ng-template #tmpl1>Something exists: True.</ng-template>
   <ng-template #tmpl2>Something exists: False.</ng-template>  
