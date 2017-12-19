@@ -6,6 +6,7 @@ import { SampleComponent } from './sample/sample.component';
 import { PropBindingComponent } from './prop.binding/prop.binding.component';
 import { SeparatorComponent } from './separator/separator.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
+import { StylingComponent } from './styling/styling.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
     SampleComponent,
     PropBindingComponent,
     SeparatorComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    StylingComponent
   ],
   imports: [
     BrowserModule
