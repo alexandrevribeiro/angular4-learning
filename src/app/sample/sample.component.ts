@@ -31,7 +31,12 @@ import { Component, OnInit } from '@angular/core';
   <ng-template #tmpl2>Something exists: False.</ng-template>  
   `,
 
-  styleUrls: ['./sample.component.css']
+  // styleUrls: ['./sample.component.css']
+  styles: [`
+    ul li {
+      color: blue;
+    }
+  `]
 })
 export class SampleComponent implements OnInit {
 
