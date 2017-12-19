@@ -24,6 +24,10 @@ import { Component } from '@angular/core';
 
   <!-- Binding a style attribute to a JS expression:  -->
   <h1 [style.color]="titleStyle ? 'green' : 'yellow'">Using Style Binding (condition)</h1>
+
+
+  <!-- Using "ngStyle" to bind to an object with multiple styles: -->
+  <h1 [ngStyle]="titleStyles">Using Style Binding (ngStyle)</h1>
   `,
   
   styles: [`
@@ -53,4 +57,8 @@ export class StylingComponent {
 
   titleColor = 'red';
   titleStyle = true;
+  titleStyles = {
+    'color': 'gray',
+    'font-size': '3em'
+  }
 }
